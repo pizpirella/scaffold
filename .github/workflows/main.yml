@@ -14,7 +14,7 @@ jobs:
         make install
     - name: Lint with Pylint
       run: |
-        make Lint
+        make lint
     - name: Test with Pytest
       run: |
         make test
